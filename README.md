@@ -1,5 +1,6 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+[![Travis-CI Build Status](https://travis-ci.org/jjchern/csfee.svg?branch=master)](https://travis-ci.org/jjchern/csfee)
+
 About
 =====
 
