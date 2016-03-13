@@ -1,0 +1,58 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# About
+
+An R data package contains state-year-month level Medicaid birth procedures fees, collected by [Diane Alexander](http://scholar.princeton.edu/dalexand/data-1) for the paper _[Does Physician Compensation Affect Procedure Choice and Patient Health? Evidence from Medicaid C-section Use](http://scholar.princeton.edu/sites/default/files/dalexand/files/procedure_choice_2015.pdf)._
+
+# Installation
+
+```r
+# install.package("devtools")
+devtools::install_github("jjchern/csfee")
+```
+
+# Usage
+
+```{r csfee-ar, warning=FALSE, message=FALSE}
+library(dplyr)
+csfee::csfee
+
+library(ggplot2)
+csfee::csfee %>%
+        filter(usps == "AR") %>%
+        ggplot(data = ., aes(x = zoo::as.Date(yearmon), y = fee, colour = cpt)) +
+        geom_line() +
+        scale_x_date(labels = scales::date_format("%Y-%m"))
+```
+
+

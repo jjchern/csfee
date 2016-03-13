@@ -1,0 +1,12 @@
+Package: csfee
+Title: Medicaid Fee Schedules for Birth Procedures
+Version: 0.0.0.9000
+Authors@R: 'JJ Chen <jiajia.chern@gmail.com> [aut, cre]'
+Description: State-year-month level Medicaid fee schedules for birth procedures.
+Depends:
+    R (>= 3.2.2)
+License: CC0
+LazyData: true
+URL: https://github.com/jjchern/csfee
+BugReports: https://github.com/jjchern/csfee/issues
+RoxygenNote: 5.0.0.9000
