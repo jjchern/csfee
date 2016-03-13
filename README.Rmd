@@ -14,9 +14,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-[![Travis-CI Build Status](https://travis-ci.org/jjchern/csfee.svg?branch=master)](https://travis-ci.org/jjchern/csfee)
-
-
 # About
 
 An R data package contains state-year-month level Medicaid birth procedures fees, collected by [Diane Alexander](http://scholar.princeton.edu/dalexand/data-1) for the paper _[Does Physician Compensation Affect Procedure Choice and Patient Health? Evidence from Medicaid C-section Use](http://scholar.princeton.edu/sites/default/files/dalexand/files/procedure_choice_2015.pdf)._
