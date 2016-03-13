@@ -43,3 +43,8 @@ csfee::csfee %>%
 ```
 
 ![](README-csfee-ar-1.png)
+
+Shiny App
+=========
+
+To further explore the data, check out [the shiny app](https://jjchen.shinyapps.io/csfee/).

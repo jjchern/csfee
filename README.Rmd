@@ -39,4 +39,7 @@ csfee::csfee %>%
         scale_x_date(labels = scales::date_format("%Y-%m"))
 ```
 
+# Shiny App
+
+To further explore the data, check out [the shiny app](https://jjchen.shinyapps.io/csfee/).
 
